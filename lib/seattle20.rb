@@ -3,9 +3,6 @@ require 'net/http'
 
 class Seattle20
   BASEURL = "http://www.seattle20.com/api/v1/"
-
-  def initialize
-  end
   
   def self.events
     short_url = BASEURL + "get_events.aspx"
