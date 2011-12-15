@@ -49,4 +49,4 @@ If you want to see the most recent Seattle Startup Index:
     
 To see the February list in csv format:
 
-    Seattle20.ssi{ :format = "csv", :month = "02" }
+    Seattle20.ssi{ :format => "csv", :month => "02" }
